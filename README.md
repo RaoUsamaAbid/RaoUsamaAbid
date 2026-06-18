@@ -1,11 +1,15 @@
 <!--
 ============================================================
-  SETUP — replace these 4 placeholders everywhere (find & replace):
-    RaoUsamaAbid   -> your GitHub handle (powers all live cards)
-    YOUR_LINKEDIN_URL      -> e.g. https://linkedin.com/in/rao-usama-abid
-    YOUR_EMAIL             -> e.g. usamaroar786@gmail.com
-  The snake animation needs a one-time GitHub Action — see the
-  bottom of this file for the 60-second setup.
+  BEFORE YOU PUSH — fill these in:
+    YOUR_LINKEDIN_URL / YOUR_EMAIL / YOUR_PORTFOLIO_URL
+      (the 3 contact badges are COMMENTED OUT below so they
+       don't render as broken links — fill them, then delete
+       the comment markers around that block.)
+    Username (RaoUsamaAbid) is already wired into every card.
+    Snake animation stays commented until you run the Action
+    at the bottom of this file.
+    The "Conversation Versioning Engine" link goes live once
+    you create that repo — see the second file I gave you.
 ============================================================
 -->
 
@@ -17,15 +21,17 @@
 <!-- ===================== TYPING SUBTITLE ===================== -->
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=900&color=58A6FF&center=true&vCenter=true&width=720&lines=Building+scalable%2C+production-grade+systems;Distributed+systems+%26+cloud-native+apps;6%2B+years+across+health%2C+fintech+%26+analytics;Backend+architecture+%C2%B7+APIs+%C2%B7+DevOps" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=900&color=58A6FF&center=true&vCenter=true&width=760&lines=I+keep+production+systems+consistent+%26+available;Backend+architecture+%C2%B7+distributed+systems;6%2B+years+across+health%2C+fintech+%26+analytics;Most+of+my+work+is+private+%E2%80%94+here's+the+proof" alt="Typing SVG" />
   </a>
 </div>
 
 <!-- ===================== SOCIAL / CONTACT ===================== -->
 <div align="center">
+  <!-- FILL THESE 3, THEN UNCOMMENT THIS BLOCK:
   <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-Reach%20out-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-Visit-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  -->
   <img src="https://komarev.com/ghpvc/?username=RaoUsamaAbid&label=Profile%20views&color=58A6FF&style=for-the-badge" alt="Profile views" />
 </div>
 
@@ -39,12 +45,15 @@ name:        Rao Usama Abid
 role:        Senior Software Engineer / Full Stack Developer
 location:    Lahore, Pakistan 🇵🇰
 experience:  6+ years building production systems
-domains:     [ healthcare, fintech, transportation, analytics, edtech ]
-focus:       backend architecture · distributed systems · cloud-native apps
-mindset:     simple to understand · easy to maintain · built to scale
+domains:     [ healthcare, fintech, analytics, edtech ]
+focus:       backend architecture · distributed systems · reliability at scale
 ```
 
-I design and ship production-grade applications that serve real users while holding a high bar for **performance, reliability, and security**. I like turning messy business requirements into clean, scalable systems — and making them fast.
+I design and ship production-grade applications that stay **consistent and available under real traffic** — with a high bar for reliability, data integrity, and security. I turn messy business requirements into clean systems that hold up at scale.
+
+> 🔒 **Most of my production work lives in private client organizations under NDA.** My public repos here are experiments and personal projects. The work that defines my experience is described below as **case studies** — and I'm building open-source projects that demonstrate the same engineering in code I *can* share.
+
+**Selected impact:** kept billing & financial systems consistent at **50k–500k-patient scale** · built analytics pipelines over **multi-million-record** datasets · resolved critical production incidents with minimal downtime.
 
 ---
 
@@ -91,6 +100,57 @@ I design and ship production-grade applications that serve real users while hold
 
 ---
 
+<!-- ===================== FEATURED OSS ===================== -->
+## 🌟 Featured Open-Source Project
+
+### Conversation Versioning Engine &nbsp;<sub>*(public · in active development)*</sub>
+<!-- Once the repo exists, make this heading a link to https://github.com/RaoUsamaAbid/conversation-versioning -->
+
+Git-style **branching and merging for chatbot conversation state** — branch a dialog to explore an alternate path, merge branches back, diff conversation trees, and recover any prior state. A fully-documented, tested implementation of the distributed-state patterns I apply in client work — in code I can actually share.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Tested](https://img.shields.io/badge/tested-Jest-C21325?style=flat-square&logo=jest&logoColor=white)
+
+> 🏗️ Building now — architecture, API, and roadmap live in the repo README.
+
+---
+
+<!-- ===================== CASE STUDIES ===================== -->
+## 🚀 Case Studies
+
+> Production work delivered inside private client organizations under NDA — described by **problem → approach → outcome** rather than code.
+
+### 🏥 Healthcare Billing & Insurance Platform
+**Context** — Billing, insurance reimbursement, scheduling, and video consultations for a platform operating at **50k–500k-patient scale**.
+**Challenge** — Keep financial and claim data consistent and available under real traffic, with HIPAA-conscious handling and no tolerance for billing errors.
+**Approach** — Designed claim/reimbursement workflows, integrated Stripe payments, modeled secure patient/provider data, and hardened reconciliation paths.
+**Outcome** — Reliable claim processing at scale with consistent financial state and reduced reconciliation friction across doctor/patient portals.
+`Ruby on Rails` · `React` · `PostgreSQL` · `Stripe`
+
+### ⚡ Utility Analytics Platform
+**Context** — Enterprise energy-analytics platform processing **multi-million-record** datasets.
+**Challenge** — Run weather-sensitive baseline calculations and automated reporting over large datasets without runaway latency or cost.
+**Approach** — Built baseline-configuration engines, event-driven processing, and automated reporting pipelines with Redis caching.
+**Outcome** — Repeatable large-scale reporting with predictable performance, feeding resilient analyst-facing dashboards.
+`Node.js` · `PostgreSQL` · `Redis` · `GraphQL` · `Docker`
+
+### 💳 FinTech Transaction Systems
+**Context** — Secure financial systems handling transaction processing and payment integrations.
+**Challenge** — Guarantee correct money movement and data consistency under concurrency.
+**Approach** — Idempotent transaction handling, payment-provider integrations, and reporting built around strong consistency guarantees.
+**Outcome** — Dependable financial workflows with auditable, consistent records.
+`Node.js` · `PostgreSQL` · `Stripe`
+
+### 📚 WhatsApp-Based Learning Platform
+**Context** — Education platform expanding access for underserved communities over a messaging channel.
+**Challenge** — Deliver learning content and track engagement reliably at scale through WhatsApp.
+**Approach** — Content delivery, engagement tracking, and an analytics dashboard on a scalable backend.
+**Outcome** — Improved accessibility through a familiar channel, with measurable engagement tracking.
+`Node.js` · `React` · `PostgreSQL`
+
+---
+
 <!-- ===================== GITHUB STATS ===================== -->
 ## 📊 GitHub Analytics
 
@@ -118,65 +178,6 @@ I design and ship production-grade applications that serve real users while hold
   <img src="https://raw.githubusercontent.com/RaoUsamaAbid/RaoUsamaAbid/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" />
 </div>
 -->
-
----
-
-<!-- ===================== EXPERIENCE ===================== -->
-## 💼 What I've Built
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🏥 Healthcare Platforms
-HIPAA-conscious systems: patient management, billing & insurance reimbursement, appointment scheduling, video consultations, and Stripe-backed payment flows for doctor/patient portals.
-
-</td>
-<td width="50%" valign="top">
-
-### 💳 FinTech Solutions
-Secure, scalable financial systems — transaction processing, payment integrations, reporting, and financial workflow automation with a hard focus on data consistency.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ⚡ Utility Analytics Platform
-Enterprise analytics: energy-consumption analysis, baseline configuration engines, weather-sensitive calculations, and automated large-scale reporting.
-
-</td>
-<td width="50%" valign="top">
-
-### 📚 Education Technology
-Learning platforms expanding accessibility for underserved communities through modern delivery and communication channels.
-
-</td>
-</tr>
-</table>
-
----
-
-<!-- ===================== PROJECTS ===================== -->
-## 🚀 Selected Projects
-
-> Replace each `#` link with the real repo URL. A project a recruiter can't click into reads as a project that doesn't exist.
-
-### [Analytics Platform →](#)
-Scalable, event-driven analytics ecosystem with distributed services and GraphQL APIs.
-`Node.js` · `PostgreSQL` · `Redis` · `GraphQL` · `Docker`
-
-### [Healthcare Billing System →](#)
-Billing platform for patients, providers, and insurers — claim workflows, Stripe payments, and secure health-data management.
-`Ruby on Rails` · `React` · `PostgreSQL` · `Stripe`
-
-### [WhatsApp-Based Learning Platform →](#)
-Education platform improving accessibility through content delivery, engagement tracking, and an analytics dashboard.
-`Node.js` · `React` · `PostgreSQL`
-
-### [Git-Like Chatbot Versioning System →](#)
-Conversation-management architecture inspired by Git — branching, merging, version tracking, and state recovery for chatbot conversations.
-`Distributed design` · `State management`
 
 ---
 
@@ -216,11 +217,8 @@ Conversation-management architecture inspired by Git — branching, merging, ver
 <!--
 ============================================================
   CONTRIBUTION SNAKE — one-time setup (≈60 seconds):
-  1. Create a public repo named EXACTLY your username
-     (github.com/RaoUsamaAbid/RaoUsamaAbid).
-     GitHub treats its README.md as your profile page.
-  2. Add this file as README.md in that repo.
-  3. Create .github/workflows/snake.yml with:
+  1. The repo RaoUsamaAbid/RaoUsamaAbid is your profile repo (this README lives there).
+  2. Create .github/workflows/snake.yml with:
 
      name: Generate Snake
      on:
@@ -242,7 +240,10 @@ Conversation-management architecture inspired by Git — branching, merging, ver
              env:
                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  4. Actions tab -> run "Generate Snake" once. Done.
-     If you skip this, just delete the snake <img> block above.
+  3. Actions tab -> run "Generate Snake" once.
+  4. Uncomment the snake <img> block above. Done.
+
+  ALSO: turn on Settings -> Profile -> "Include private contributions
+  on my profile" so your NDA/client work shows on the graph above.
 ============================================================
 -->
