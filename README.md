@@ -1,10 +1,9 @@
 <!--
 ============================================================
   SETUP — replace these 4 placeholders everywhere (find & replace):
-    YOUR_GITHUB_USERNAME   -> your GitHub handle (powers all live cards)
-    YOUR_LINKEDIN_URL      -> e.g. https://linkedin.com/in/yourname
-    YOUR_EMAIL             -> e.g. you@domain.com
-    YOUR_PORTFOLIO_URL     -> your portfolio site (or delete that line)
+    RaoUsamaAbid   -> your GitHub handle (powers all live cards)
+    YOUR_LINKEDIN_URL      -> e.g. https://linkedin.com/in/rao-usama-abid
+    YOUR_EMAIL             -> e.g. usamaroar786@gmail.com
   The snake animation needs a one-time GitHub Action — see the
   bottom of this file for the 60-second setup.
 ============================================================
@@ -27,7 +26,7 @@
   <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-Reach%20out-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-Visit-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile%20views&color=58A6FF&style=for-the-badge" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=RaoUsamaAbid&label=Profile%20views&color=58A6FF&style=for-the-badge" alt="Profile views" />
 </div>
 
 <br/>
@@ -96,26 +95,29 @@ I design and ship production-grade applications that serve real users while hold
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&count_private=true&hide_border=true&theme=tokyonight&title_color=58A6FF&icon_color=8B5CF6" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&hide_border=true&theme=tokyonight&title_color=58A6FF&langs_count=8" alt="Top languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=RaoUsamaAbid&show_icons=true&count_private=true&hide_border=true&theme=tokyonight&title_color=58A6FF&icon_color=8B5CF6" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RaoUsamaAbid&layout=compact&hide_border=true&theme=tokyonight&title_color=58A6FF&langs_count=8" alt="Top languages" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&hide_border=true&theme=tokyonight&ring=58A6FF&fire=8B5CF6&currStreakLabel=58A6FF" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com?user=RaoUsamaAbid&hide_border=true&theme=tokyonight&ring=58A6FF&fire=8B5CF6&currStreakLabel=58A6FF" alt="GitHub streak" />
 </div>
 
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=8B5CF6&point=ffffff&area=true" alt="Contribution graph" />
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=RaoUsamaAbid&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=8B5CF6&point=ffffff&area=true" alt="Contribution graph" />
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8" alt="Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=RaoUsamaAbid&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8" alt="Trophies" />
 </div>
 
-<!-- Contribution snake (requires the Action at the bottom of this file) -->
+<!-- Contribution snake: KEEP COMMENTED until you run the Action at the bottom of this file.
+     Until the "output" branch exists, this image 404s and renders broken on your live profile.
+     After the Action runs once, delete these comment markers to enable it.
 <div align="center">
-  <img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" />
+  <img src="https://raw.githubusercontent.com/RaoUsamaAbid/RaoUsamaAbid/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" />
 </div>
+-->
 
 ---
 
@@ -184,24 +186,24 @@ Conversation-management architecture inspired by Git — branching, merging, ver
 <table>
 <tr>
 <td width="50%" valign="top">
-
-**I believe great software is:**
-- Simple to understand
-- Easy to maintain
-- Built to scale
-- Thoroughly tested
-- Focused on solving real problems
-
+<strong>I believe great software is:</strong>
+<ul>
+<li>Simple to understand</li>
+<li>Easy to maintain</li>
+<li>Built to scale</li>
+<li>Thoroughly tested</li>
+<li>Focused on solving real problems</li>
+</ul>
 </td>
 <td width="50%" valign="top">
-
-**Currently exploring:**
-- Distributed systems
-- AI-powered applications
-- Event-driven architectures
-- Platform engineering
-- High-performance APIs
-
+<strong>Currently exploring:</strong>
+<ul>
+<li>Distributed systems</li>
+<li>AI-powered applications</li>
+<li>Event-driven architectures</li>
+<li>Platform engineering</li>
+<li>High-performance APIs</li>
+</ul>
 </td>
 </tr>
 </table>
@@ -215,7 +217,7 @@ Conversation-management architecture inspired by Git — branching, merging, ver
 ============================================================
   CONTRIBUTION SNAKE — one-time setup (≈60 seconds):
   1. Create a public repo named EXACTLY your username
-     (github.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME).
+     (github.com/RaoUsamaAbid/RaoUsamaAbid).
      GitHub treats its README.md as your profile page.
   2. Add this file as README.md in that repo.
   3. Create .github/workflows/snake.yml with:
