@@ -167,9 +167,8 @@ Git-style **branching and merging for chatbot conversation state** — branch a 
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=RaoUsamaAbid&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=8B5CF6&point=ffffff&area=true" alt="Contribution graph" />
 </div>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=RaoUsamaAbid&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8" alt="Trophies" />
-</div>
+<!-- Trophy card removed: github-profile-trophy.vercel.app is an unreliable free instance
+     (frequently rate-limited -> broken image), and trophies add little for a recruiter audience. -->
 
 <!-- Contribution snake: KEEP COMMENTED until you run the Action at the bottom of this file.
      Until the "output" branch exists, this image 404s and renders broken on your live profile.
